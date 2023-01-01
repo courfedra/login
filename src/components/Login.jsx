@@ -48,8 +48,8 @@ export const Profile=()=>{
             <div>
                 <img src={user.picture} alt={user.name}/>
                 <h2>{user.name}</h2>
+                <h3>{user.nickname}</h3>
                 <p>{user.email}</p>
-                <p>{user.repo||"nada"}</p>
             </div>
             <LogoutButton/>
         </>
