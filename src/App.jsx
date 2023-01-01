@@ -1,10 +1,14 @@
 import './App.css'
-import { LoginButton } from './components/Login'
+import { LoginButton, LogoutButton,Profile } from './components/Login'
 function App() {
 
 
   return (
-    <LoginButton/>
+    <>
+      <LoginButton/>
+      <Profile/>
+      <LogoutButton/>
+    </>
   )
 }
 
