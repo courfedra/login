@@ -7,7 +7,8 @@ function App() {
   const {isAuthenticated} = useAuth0()
   const Card = styled.div`
     width:50vw;
-    height:50vh;
+    min-height:100%;
+    padding:10px;
     display:flex;
     flex-direction:column;
     justify-content:center;

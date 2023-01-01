@@ -15,6 +15,7 @@ const LoginBtn = styled.button`
 const LoginImg = styled.img`
     padding: 5px;
     margin: 5px;
+    width:50%;
 `
 
 export const LoginButton=()=>{
@@ -22,7 +23,7 @@ export const LoginButton=()=>{
     return(
     <>
         <LoginImg src="https://i.ibb.co/McFX1qT/Logo-Frontend-removebg-preview.png" alt="LogoFAdev" />
-        <LoginBtn onClick={loginWithRedirect}>Login with Auth0 - Google</LoginBtn>
+        <LoginBtn onClick={loginWithRedirect}>Login</LoginBtn>
     </>
     )
 }
