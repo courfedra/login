@@ -1,10 +1,15 @@
 import React from "react";
 import { useAuth0 } from "@auth0/auth0-react";
+import styled from 'styled-components'
+
+const LoginBtn = styled.button`
+    background-color:red
+`
 
 export const LoginButton=()=>{
     const {loginWithRedirect} = useAuth0()
     return(
-        <button onClick={loginWithRedirect}>Login</button>
+        <LoginBtn onClick={loginWithRedirect}>Login</LoginBtn>
     )
 }
 
